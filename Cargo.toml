@@ -9,3 +9,7 @@ keywords = ["console", "terminal", "error"]
 categories = ["utils"]
 
 [dependencies]
+
+[features]
+default = ["std"]
+std = []
